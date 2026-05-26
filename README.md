@@ -72,7 +72,7 @@ qmk compile -kb dcpedit/masonry -km steno && qmk flash -kb dcpedit/masonry -km s
 So you need to know how to solder. I don't know if that was clear, but so how you will solder it is for the pins, the solder will touch the pin and the pad, so you heat it to 375 °C, then you will solder the pin to the pad right next to it, and before you do that, you go with a bit of flux, which will make it so much easier and use the 3 second rule 1 second heat up another second solder feeds in and then the 2rd second you guide the solder and if you do any more than 5 seconds you can damage the board
 
 # Plover setup
-Go to: https://github.com/opensteno/plover/releases/tag/v5.3.0
+Go to: https://github.com/opensteno/plover/releases/tag/v5.3.0 and install plover
 Then, on The Dropdown that says machine drop down, click Gemini PR. Also, if your machine doesn't connect, go to configure the machine and look for Mansory
 
 # Credits
