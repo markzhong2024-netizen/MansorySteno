@@ -1,3 +1,5 @@
+This is in Beta, so Pictures will come out soon
+
 # MansorySteno 
 This is a stenography keyboard, but the PCB is masnory (there is also a GitHub for that masnory PCB)
 The GitHub for the Mansory PCB for more info is: https://github.com/dcpedit/masonry (the maker of this PCB is dcpedit)
@@ -10,8 +12,9 @@ First, download the folder (or download the whole zip, then find the production 
 2. 28 Switches
 3. Soldering Iron
 4. Solder Wire
-5. Mill-Max Hot Swaps (optional)
-6. A USB-C to USB-C cable with data
+5. Flux
+6. Mill-Max Hot Swaps (optional)
+7. A USB-C to USB-C cable with data
 
 # Firmware
 First, download the firmware from the firmware folder. Now, put it in the downloads folder (the command will try to find the file to flash it from the downloads,s so its importent to do that). Now you are going to put the PCB into the bootloader by pressing the boot button, not the reset button. Now your device might ask you if you want to connect to the PCB, click Yes. Then use this command 
@@ -65,6 +68,16 @@ Then flash it
 ```bash
 qmk compile -kb dcpedit/masonry -km steno && qmk flash -kb dcpedit/masonry -km steno
 ```
+# Soldering
+So you need to know how to solder. I don't know if that was clear, but so how you will solder it is for the pins, the solder will touch the pin and the pad, so you heat it to 375 °C, then you will solder the pin to the pad right next to it, and before you do that, you go with a bit of flux, which will make it so much easier and use the 3 second rule 1 second heat up another second solder feeds in and then the 2rd second you guide the solder and if you do any more than 5 seconds you can damage the board
 
 # Plover setup
 Go to: https://github.com/opensteno/plover/releases/tag/v5.3.0
+Then, on The Dropdown that says machine drop down, click Gemini PR. Also, if your machine doesn't connect, go to configure the machine and look for Mansory
+
+# Credits
+Dcpedit/Mansory link to GitHub: https://github.com/dcpedit/masonry
+
+Opensteno/Plover link to GitHub: https://github.com/opensteno/plover
+
+QMK Tools
