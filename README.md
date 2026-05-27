@@ -9,7 +9,7 @@ First, download the folder (or download the whole zip, then find the production 
 
 # Supplies
 1. Mansory PCB
-2. 28 Switches
+2. 28 MX-Switches
 3. Soldering Iron
 4. Solder Wire
 5. Flux
